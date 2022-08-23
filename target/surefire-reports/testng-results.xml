@@ -2,23 +2,23 @@
 <testng-results ignored="2" total="8" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-22T08:28:48Z" name="Surefire suite" finished-at="2022-08-22T08:29:17Z" duration-ms="29058">
+  <suite started-at="2022-08-23T02:04:33Z" name="Surefire suite" finished-at="2022-08-23T02:04:51Z" duration-ms="18498">
     <groups>
     </groups>
-    <test started-at="2022-08-22T08:28:48Z" name="Surefire test" finished-at="2022-08-22T08:29:17Z" duration-ms="29058">
+    <test started-at="2022-08-23T02:04:33Z" name="Surefire test" finished-at="2022-08-23T02:04:51Z" duration-ms="18498">
       <class name="org.example.tapestry.integration.pages.NavigationTest">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-22T08:29:13Z" name="setup" finished-at="2022-08-22T08:29:13Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-23T02:04:47Z" name="setup" finished-at="2022-08-23T02:04:47Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@fceab5d]]>
+                <![CDATA[org.testng.TestRunner@1b98355f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-22T08:29:13Z" name="indicateTestMethodName" finished-at="2022-08-22T08:29:13Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-23T02:04:47Z" name="indicateTestMethodName" finished-at="2022-08-23T02:04:47Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- indicateTestMethodName -->
-        <test-method signature="navigationAbout()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-22T08:29:13Z" name="navigationAbout" finished-at="2022-08-22T08:29:13Z" duration-ms="667" status="PASS">
+        <test-method signature="navigationAbout()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-23T02:04:47Z" name="navigationAbout" finished-at="2022-08-23T02:04:48Z" duration-ms="613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigationAbout -->
-        <test-method is-config="true" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-22T08:29:13Z" name="indicateTestMethodName" finished-at="2022-08-22T08:29:13Z" duration-ms="0" status="PASS">
+        <test-method signature="navigationError404()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-23T02:04:48Z" name="navigationError404" finished-at="2022-08-23T02:04:48Z" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationError404 -->
+        <test-method is-config="true" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-23T02:04:48Z" name="indicateTestMethodName" finished-at="2022-08-23T02:04:48Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,19 +48,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- indicateTestMethodName -->
-        <test-method signature="navigationError404()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-22T08:29:13Z" name="navigationError404" finished-at="2022-08-22T08:29:14Z" duration-ms="646" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigationError404 -->
-        <test-method is-config="true" signature="cleanupTestMethod()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-22T08:29:13Z" name="cleanupTestMethod" finished-at="2022-08-22T08:29:13Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanupTestMethod()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-23T02:04:48Z" name="cleanupTestMethod" finished-at="2022-08-23T02:04:48Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanupTestMethod -->
-        <test-method signature="navigationIndex()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-22T08:29:14Z" name="navigationIndex" finished-at="2022-08-22T08:29:15Z" duration-ms="614" status="PASS">
+        <test-method is-config="true" signature="cleanupTestMethod()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-23T02:04:48Z" name="cleanupTestMethod" finished-at="2022-08-23T02:04:48Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigationIndex -->
-        <test-method is-config="true" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-22T08:29:14Z" name="indicateTestMethodName" finished-at="2022-08-22T08:29:14Z" duration-ms="0" status="PASS">
+        </test-method> <!-- cleanupTestMethod -->
+        <test-method is-config="true" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-23T02:04:48Z" name="indicateTestMethodName" finished-at="2022-08-23T02:04:48Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,15 +67,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- indicateTestMethodName -->
-        <test-method is-config="true" signature="cleanupTestMethod()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-22T08:29:14Z" name="cleanupTestMethod" finished-at="2022-08-22T08:29:14Z" duration-ms="0" status="PASS">
+        <test-method signature="navigationIndex()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-23T02:04:48Z" name="navigationIndex" finished-at="2022-08-23T02:04:49Z" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationIndex -->
+        <test-method is-config="true" signature="cleanupTestMethod()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-23T02:04:49Z" name="cleanupTestMethod" finished-at="2022-08-23T02:04:49Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanupTestMethod -->
-        <test-method is-config="true" signature="cleanupTestMethod()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-22T08:29:15Z" name="cleanupTestMethod" finished-at="2022-08-22T08:29:15Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanupTestMethod -->
-        <test-method is-config="true" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-22T08:29:15Z" name="indicateTestMethodName" finished-at="2022-08-22T08:29:15Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-23T02:04:49Z" name="indicateTestMethodName" finished-at="2022-08-23T02:04:49Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,48 +86,48 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- indicateTestMethodName -->
-        <test-method signature="navigationLogin()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-22T08:29:15Z" name="navigationLogin" finished-at="2022-08-22T08:29:15Z" duration-ms="646" status="PASS">
+        <test-method signature="navigationLogin()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-23T02:04:49Z" name="navigationLogin" finished-at="2022-08-23T02:04:50Z" duration-ms="603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigationLogin -->
-        <test-method is-config="true" signature="cleanupTestMethod()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-22T08:29:15Z" name="cleanupTestMethod" finished-at="2022-08-22T08:29:15Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanupTestMethod()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-23T02:04:50Z" name="cleanupTestMethod" finished-at="2022-08-23T02:04:50Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanupTestMethod -->
-        <test-method is-config="true" signature="cleanup()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-22T08:29:15Z" name="cleanup" finished-at="2022-08-22T08:29:15Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:org.example.tapestry.integration.pages.NavigationTest@1bcf67e8]" started-at="2022-08-23T02:04:50Z" name="cleanup" finished-at="2022-08-23T02:04:50Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
       </class> <!-- org.example.tapestry.integration.pages.NavigationTest -->
       <class name="org.example.tapestry.integration.pages.LoginTest">
-        <test-method is-config="true" signature="testStartup(org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-22T08:28:48Z" name="testStartup" depends-on-groups="beforeStartup" finished-at="2022-08-22T08:29:08Z" duration-ms="20334" status="PASS">
+        <test-method is-config="true" signature="testStartup(org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-23T02:04:33Z" name="testStartup" depends-on-groups="beforeStartup" finished-at="2022-08-23T02:04:43Z" duration-ms="10211" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@fceab5d]]>
+                <![CDATA[org.testng.TestRunner@1b98355f]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.xml.XmlTest@5dbd0ee6]]>
+                <![CDATA[org.testng.xml.XmlTest@b358ce44]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartup -->
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-22T08:29:08Z" name="setup" finished-at="2022-08-22T08:29:08Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-23T02:04:43Z" name="setup" finished-at="2022-08-23T02:04:43Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@fceab5d]]>
+                <![CDATA[org.testng.TestRunner@1b98355f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-22T08:29:08Z" name="indicateTestMethodName" finished-at="2022-08-22T08:29:08Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-23T02:04:43Z" name="indicateTestMethodName" finished-at="2022-08-23T02:04:43Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -138,11 +138,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- indicateTestMethodName -->
-        <test-method signature="loginError()[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-22T08:29:08Z" name="loginError" finished-at="2022-08-22T08:29:12Z" duration-ms="3367" status="PASS">
+        <test-method signature="loginError()[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-23T02:04:43Z" name="loginError" finished-at="2022-08-23T02:04:46Z" duration-ms="3232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginError -->
-        <test-method is-config="true" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-22T08:29:12Z" name="indicateTestMethodName" finished-at="2022-08-22T08:29:12Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanupTestMethod()[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-23T02:04:46Z" name="cleanupTestMethod" finished-at="2022-08-23T02:04:46Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanupTestMethod -->
+        <test-method signature="loginSuccess()[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-23T02:04:46Z" name="loginSuccess" finished-at="2022-08-23T02:04:47Z" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method is-config="true" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-23T02:04:46Z" name="indicateTestMethodName" finished-at="2022-08-23T02:04:46Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -153,27 +161,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- indicateTestMethodName -->
-        <test-method is-config="true" signature="cleanupTestMethod()[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-22T08:29:12Z" name="cleanupTestMethod" finished-at="2022-08-22T08:29:12Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanupTestMethod()[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-23T02:04:47Z" name="cleanupTestMethod" finished-at="2022-08-23T02:04:47Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanupTestMethod -->
-        <test-method signature="loginSuccess()[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-22T08:29:12Z" name="loginSuccess" finished-at="2022-08-22T08:29:13Z" duration-ms="815" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginSuccess -->
-        <test-method is-config="true" signature="cleanupTestMethod()[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-22T08:29:13Z" name="cleanupTestMethod" finished-at="2022-08-22T08:29:13Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanupTestMethod -->
-        <test-method is-config="true" signature="cleanup()[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-22T08:29:13Z" name="cleanup" finished-at="2022-08-22T08:29:13Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-23T02:04:47Z" name="cleanup" finished-at="2022-08-23T02:04:47Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
-        <test-method is-config="true" signature="testShutdown(org.testng.ITestContext)[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-22T08:29:15Z" name="testShutdown" finished-at="2022-08-22T08:29:17Z" duration-ms="1950" status="PASS">
+        <test-method is-config="true" signature="testShutdown(org.testng.ITestContext)[pri:0, instance:org.example.tapestry.integration.pages.LoginTest@6b587673]" started-at="2022-08-23T02:04:50Z" name="testShutdown" finished-at="2022-08-23T02:04:51Z" duration-ms="1790" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@fceab5d]]>
+                <![CDATA[org.testng.TestRunner@1b98355f]]>
               </value>
             </param>
           </params>
